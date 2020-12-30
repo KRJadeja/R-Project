@@ -1,10 +1,10 @@
 #Set Working directory (Yours will differ)
-setwd("C:/Users/KJadeja/Desktop/Kiran GCU Assignment/MIS-650-XC0523R2-Performing Analytics Using Statistical a Language/week8")
+setwd("D:/MIS-650")
 
 # load library maps (you will have to install it once using "Install pacakge(s)")
 library(maps)
 
-#Load the fips data from the maps package, this translates a fips code to a state and county anme
+#Load the fips data from the maps package, this translates a fips code to a state and county name
 fips.data <- county.fips
 
 # File has one row per country and election year
@@ -17,7 +17,7 @@ my.data.wide <- election.data.wide[toupper(election.data.wide$State) ==  "NEW JE
 
 #write.csv(my.data.wide, "MyElectionData.csv", row.names = FALSE)
 
-#code for CPC3
+#code for Linear Regression
 
 #County vector for looping
 counties<-c("Morris County","Salem County","Gloucester County")
