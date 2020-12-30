@@ -1,5 +1,5 @@
 #Set Working directory (Yours will differ)
-setwd("C:/Users/kferr/OneDrive/Documents/Education/GCU/MIS650")
+setwd("D:/MIS650")
 
 # load library maps (you will have to install it once using "Install pacakge(s)")
 library(maps)
