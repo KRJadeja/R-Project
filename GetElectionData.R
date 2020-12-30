@@ -1,10 +1,10 @@
-#Set Working directory (Yours will differ)
+#Set Working directory
 setwd("D:/MIS650")
 
 # load library maps (you will have to install it once using "Install pacakge(s)")
 library(maps)
 
-#Load the fips data from the maps package, this translates a fips code to a state and county anme
+#Load the fips data from the maps package, this translates a fips code to a state and county name
 fips.data <- county.fips
 
 # File has one row per country and election year
